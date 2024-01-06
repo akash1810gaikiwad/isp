@@ -10,13 +10,13 @@ const masterRoute = [
         authority: [],
     },
     {
-        key: 'Branch',
+        key: 'branch',
         path: '/branch',
         component: React.lazy(() => import('views/Master/Branch/BranchMaster')),
         authority: [],
     },
     {
-        key: 'Department',
+        key: 'department',
         path: '/department',
         component: React.lazy(() =>
             import('views/Master/Department/DepartmentMaster')
