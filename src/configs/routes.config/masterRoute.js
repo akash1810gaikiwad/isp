@@ -15,6 +15,14 @@ const masterRoute = [
         component: React.lazy(() => import('views/Master/Branch/BranchMaster')),
         authority: [],
     },
+    {
+        key: 'Department',
+        path: '/department',
+        component: React.lazy(() =>
+            import('views/Master/Department/DepartmentMaster')
+        ),
+        authority: [],
+    },
 ]
 
 export default masterRoute

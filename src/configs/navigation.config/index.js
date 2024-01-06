@@ -44,6 +44,16 @@ const navigationConfig = [
                 authority: [],
                 subMenu: [],
             },
+            {
+                key: 'department',
+                path: '/department',
+                title: 'Department Master',
+                translateKey: 'department',
+                icon: '',
+                type: NAV_ITEM_TYPE_ITEM,
+                authority: [],
+                subMenu: [],
+            },
         ],
     },
 ]
